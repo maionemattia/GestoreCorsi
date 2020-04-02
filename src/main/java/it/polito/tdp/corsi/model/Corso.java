@@ -3,9 +3,9 @@ package it.polito.tdp.corsi.model;
 public class Corso {
 	
 	private String codins;
-	private int crediti;
+	private Integer crediti;
 	private String nome;
-	private int pd;
+	private Integer pd;
 	
 	/**
 	 * @param codins
@@ -13,7 +13,7 @@ public class Corso {
 	 * @param nome
 	 * @param pd
 	 */
-	public Corso(String codins, int crediti, String nome, int pd) {
+	public Corso(String codins, Integer crediti, String nome, Integer pd) {
 		super();
 		this.codins = codins;
 		this.crediti = crediti;
